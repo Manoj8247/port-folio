@@ -35,8 +35,6 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
 
-
-
 }
 
 .navlinks img {
@@ -45,6 +43,31 @@ body {
     height: 40px;
     justify-content: center;
 }
+
+#theme-toggle {
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: rgb(167, 240, 241);
+}
+
+.light-mode {
+    background: #66dfbb;
+    color: #222;
+}
+
+.light-mode nav {
+    background: #9de4e5;
+    color: #222;
+}
+
+.light-mode .card {
+    background: #e9e9e9;
+    color: #222;
+}
+
+
 
 
 
@@ -128,10 +151,16 @@ body {
     padding: 50px 20px;
 }
 
+.hero p {
+
+    margin-bottom: 10px;
+    color: #fff;
+}
+
 .about-section {
     padding: 20px;
     text-align: center;
-    margin-left: 180px;
+    margin-left: 185px;
     margin-right: 180px;
     color: #CBD5E1;
     font-weight: 500px;

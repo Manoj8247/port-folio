@@ -4,6 +4,7 @@
 <head>
     <title>manoj portfolio</title>
     <link rel="stylesheet" href="manoj.css">
+    <script src="manoj.js"></script>
 </head>
 
 <body>
@@ -11,21 +12,26 @@
         <div class="navlinks">
             <img src="C:\Users\malle\OneDrive\Desktop\port folio\WhatsApp Image 2026-05-12 at 10.53.40 PM.jpeg"
                 alt="Logo" class="logo">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Skills</a>
-            <a href="#">Projects</a>
-            <a href="#">Contact</a>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+            <button id="theme-toggle">🌙</button>
         </div>
 
     </header>
 
 
-    <section class="hero">
+    <section id="home" class="hero">
         <h1>Hi, I'm Manoj</h1>
         <h2>Web Developer</h2>
+        <p>I am an aspiring Software Developer and Artificial Intelligence student with skills in Java, Python, HTML,
+            CSS, and JavaScript. I enjoy building responsive web applications, solving programming problems, and
+            continuously learning new technologies. My goal is to create innovative and user-friendly digital solutions
+            while growing as a full-stack developer.</p>
     </section>
-    <section class="card-section">
+    <section id="card" class="card-section">
         <img src="C:\Users\malle\OneDrive\Desktop\port folio\WhatsApp Image 2026-05-12 at 10.53.40 PM.jpeg" alt="image">
         <h2>Mallela Manoj Kumar</h2>
         <p>A web application for managing tasks.</p>
@@ -35,7 +41,7 @@
 
     </section>
 
-    <section class="about-section">
+    <section id="about" class="about-section">
         <div class="about">
             <h1 class="about-title">About</h1>
         </div>
@@ -46,29 +52,30 @@
         </p>
         </div>
     </section>
-    <h1 class="skills">Skills</h1>
-    <div class="skills-container">
-        <div class="skill-card">
-            <h3>HTML</h3>
+    <section id="skills" class="skills-section">
+        <h1 class="skills">Skills</h1>
+        <div class="skills-container">
+            <div class="skill-card">
+                <h3>HTML</h3>
+            </div>
+            <div class="skill-card">
+                <h3>CSS</h3>
+            </div>
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+            </div>
+            <div class="skill-card">
+                <h3>React</h3>
+            </div>
+            <div class="skill-card">
+                <h3>Node.js</h3>
+            </div>
         </div>
-        <div class="skill-card">
-            <h3>CSS</h3>
         </div>
-        <div class="skill-card">
-            <h3>JavaScript</h3>
-        </div>
-        <div class="skill-card">
-            <h3>React</h3>
-        </div>
-        <div class="skill-card">
-            <h3>Node.js</h3>
-        </div>
-    </div>
-    </div>
     </section>
 
     <h1 class="projects-title">Projects</h1>
-    <section class="projects-section">
+    <section id="projects" class="projects-section">
         <div class="cards">
 
             <div class="card">
@@ -94,7 +101,7 @@
             </div>
     </section>
 
-    <section class="contact-section">
+    <section id="contact" class="contact-section">
         <h2>Contact Me</h2>
         <div class="contact">
 
