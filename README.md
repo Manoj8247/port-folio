@@ -1,6 +1,7 @@
 # Personal Portfolio
 
 A responsive personal portfolio website showcasing my skills, projects, and software development journey.
+[🌐 View Live Portfolio](https://manoj8247.github.io/port-folio/)
 
 ## Technologies
 
