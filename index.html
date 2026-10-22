@@ -1,260 +1,415 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>manoj portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Mallela Manoj Kumar's portfolio showcasing software development skills and projects in web development, APIs, and data analytics.">
+    <meta name="author" content="Mallela Manoj Kumar">
+    <meta name="theme-color" content="#0b1120">
+    <title>Mallela Manoj Kumar | Software Developer</title>
+
     <link rel="stylesheet" href="manoj.css">
-    <script src="manoj.js"></script>
+    <script src="manoj.js" defer></script>
 </head>
 
 <body>
-    <header class="navbar">
-        <div class="navlinks">
-            <img src="logo.png" alt="Logo" class="logo">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-            <button id="theme-toggle">🌙</button>
-        </div>
+    <a class="skip-link" href="#main-content">Skip to content</a>
 
-    </header>
+    <header class="site-header">
+        <nav class="navbar container" aria-label="Main navigation">
+            <a class="brand" href="#home" aria-label="Manoj, home">
+                <span class="brand-mark">M</span>
+                <span class="brand-name">Manoj<span class="brand-dot">.</span></span>
+            </a>
 
-
-    <section id="home" class="hero">
-        <h1>Hi, I'm Manoj</h1>
-        <h2>Web Developer</h2>
-        <p>I am an aspiring Software Developer and Artificial Intelligence student with skills in Java, Python, HTML,
-            CSS, and JavaScript. I enjoy building responsive web applications, solving programming problems, and
-            continuously learning new technologies. My goal is to create innovative and user-friendly digital solutions
-            while growing as a full-stack developer.</p>
-    </section>
-    <section id="card" class="card-section">
-
-        <img src="logo.png" alt="Mallela Manoj Kumar" class="profile-image">
-
-        <h2>Mallela Manoj Kumar</h2>
-
-        <h3>Front-End Developer</h3>
-
-        <p>
-            Aspiring software developer passionate about building
-            responsive, user-friendly web applications and learning
-            modern technologies.
-        </p>
-
-        <div class="profile-tech">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-        </div>
-
-        <a href="Mallela_Manoj_Kumar_Resume.pdf" download="Mallela_Manoj_Kumar_Resume.pdf" class="resume-btn">
-            Download Resume
-        </a>
-
-    </section>
-
-    <section id="about" class="about-section">
-        <div class="about">
-            <h1 class="about-title">About</h1>
-        </div>
-        <p>
-        <h3>Hi there! I'm a Front-End Developer based in Bengaluru, passionate about bridging the gap between design and
-            technology. I love taking complex, messy problems and turning them into intuitive, beautiful, and accessible
-            web interfaces.</h3>
-        </p>
-        </div>
-    </section>
-    <section id="skills" class="skills-section">
-        <h1 class="skills">Skills</h1>
-        <div class="skills-container">
-            <div class="skill-card">
-                <h3>HTML</h3>
-            </div>
-            <div class="skill-card">
-                <h3>CSS</h3>
-            </div>
-            <div class="skill-card">
-                <h3>JavaScript</h3>
-            </div>
-            <div class="skill-card">
-                <h3>React</h3>
-            </div>
-            <div class="skill-card">
-                <h3>Node.js</h3>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section id="projects" class="projects-section">
-        <div class="projects-header">
-            <p class="section-label">MY WORK</p>
-            <h1>Featured Projects</h1>
-            <p>
-                A selection of projects I've built while developing my
-                software development and problem-solving skills.
-            </p>
-        </div>
-
-        <div class="cards">
-
-            <!-- Project 1 -->
-            <div class="project-card">
-
-                <div class="project-image">
-                    <div class="project-placeholder">
-                        Data Ingestion
-                    </div>
-                </div>
-
-                <div class="project-content">
-                    <span class="project-type">BACKEND / API</span>
-
-                    <h2>Generic Data Ingestion Service</h2>
-
-                    <p>
-                        A backend service designed to ingest and process data
-                        through REST APIs, providing a structured foundation
-                        for handling different data sources.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>Python</span>
-                        <span>FastAPI</span>
-                        <span>REST API</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://github.com/Manoj8247/ingestion-service" target="_blank"
-                            rel="noopener noreferrer">
-                            GitHub ↗
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <!-- Project 2 -->
-            <div class="project-card">
-
-                <div class="project-image">
-                    <div class="project-placeholder">
-                        Portfolio
-                    </div>
-                </div>
-
-                <div class="project-content">
-                    <span class="project-type">FRONT-END</span>
-
-                    <h2>Personal Portfolio</h2>
-
-                    <p>
-                        A responsive personal portfolio website designed to
-                        showcase my skills, projects, experience and
-                        development journey.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>HTML</span>
-                        <span>CSS</span>
-                        <span>JavaScript</span>
-                    </div>
-
-                    <div class="project-links">
-                        <a href="https://github.com/Manoj8247/port-folio" target="_blank" rel="noopener noreferrer">
-                            GitHub ↗
-                        </a>
-
-                        <a href="#" target="_blank" rel="noopener noreferrer">
-                            Live Demo ↗
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <!-- Project 3 -->
-            <div class="project-card">
-
-                <div class="project-image">
-                    <div class="project-placeholder">
-                        <img src="https://raw.githubusercontent.com/Manoj8247/Chacolete-Sales-Dashboard/main/dashboard-preview.png"
-                            alt="Chocolate Sales Dashboard preview">
-                    </div>
-                </div>
-
-                <div class="project-content">
-                    <span class="project-type">DATA ANALYTICS</span>
-
-                    <h2>Chocolate Sales Dashboard</h2>
-
-                    <p>
-                        An interactive sales dashboard built to analyze chocolate
-                        sales performance, orders, products, countries, and
-                        monthly sales trends using data visualization.
-                    </p>
-
-                    <div class="project-tech">
-                        <span>Power BI</span>
-                        <span>Excel</span>
-                        <span>Data Analysis</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/Manoj8247/Chacolete-Sales-Dashboard" target="_blank"
-                            rel="noopener noreferrer">
-                            GitHub ↗
-                        </a>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section id="contact" class="contact-section">
-
-        <div class="contact-header">
-            <p class="section-label">GET IN TOUCH</p>
-            <h2>Let's Work Together</h2>
-            <p>
-                Have a project, opportunity, or question?
-                Feel free to get in touch.
-            </p>
-        </div>
-
-        <form class="contact-form">
-
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name" placeholder="Enter your name" required>
-            </div>
-
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email" required>
-            </div>
-
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" name="message" placeholder="Write your message..." rows="5" required></textarea>
-            </div>
-
-            <button type="submit" class="contact-btn">
-                Send Message
+            <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu"
+                aria-expanded="false" aria-controls="nav-menu">
+                <span></span><span></span><span></span>
             </button>
 
-        </form>
+            <div class="nav-menu" id="nav-menu">
+                <a class="nav-link active" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
+                <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light theme"
+                    title="Toggle theme">☼</button>
+            </div>
+        </nav>
+    </header>
 
-    </section>
+    <main id="main-content">
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-copy">
+                    <p class="eyebrow"><span class="status-dot"></span> FULL STACK DEVELOPER . INDIA</p>
+                    <h1>
+                        Building modern web applications with
+                        <span class="text-gradient">clean code.</span>
+                    </h1>
+                    <p class="hero-description">
+                        I'm <strong>Mallela Manoj Kumar</strong>, an aspiring full-stack developer
+                        focused on building responsive web applications, developing backend APIs,
+                        and connecting applications with databases to create practical solutions.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="#projects">Explore my work <span
+                                aria-hidden="true">↗</span></a>
+                        <a class="button button-secondary" href="#contact">Contact me</a>
+
+                        <a class="button button-secondary" href="Manoj_fullstack_developer_resume.pdf"
+                            download="Manoj_fullstack_developer_resume.pdf">
+                            Download Resume <span aria-hidden="true">↓</span>
+                        </a>
+                    </div>
+
+                    <div class="hero-links" aria-label="Professional links">
+                        <a href="https://github.com/Manoj8247" target="_blank" rel="noopener noreferrer">GitHub <span
+                                aria-hidden="true">↗</span></a>
+                        <span class="link-separator" aria-hidden="true">/</span>
+                        <!-- Replace the placeholder below with your actual LinkedIn profile URL. -->
+                        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn <span
+                                aria-hidden="true">↗</span></a>
+                    </div>
+                </div>
+
+                <aside class="hero-card" aria-label="Developer profile summary">
+                    <div class="hero-card-top">
+                        <span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span>
+                        <span class="card-caption">developer.profile</span>
+                    </div>
+                    <div class="avatar">
+                        <img src="images/logo.png" alt="Mallela Manoj Kumar">
+                    </div>
+                    <p class="profile-greeting">Hello, I'm</p>
+                    <h2>Mallela Manoj Kumar</h2>
+                    <p class="profile-role">Aspiring Software Developer</p>
+                    <div class="profile-divider"></div>
+                    <div class="profile-detail"><span>Focus</span><strong>Web development & APIs</strong></div>
+                    <div class="profile-detail"><span>Currently learning</span><strong>Modern development
+                            practices</strong></div>
+                    <div class="profile-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span>
+                    </div>
+                </aside>
+            </div>
+            <a class="scroll-cue" href="#about"><span aria-hidden="true">↓</span> Scroll to explore</a>
+        </section>
+
+        <section class="section about-section" id="about">
+            <div class="container narrow-container">
+                <p class="section-kicker">A LITTLE ABOUT ME</p>
+                <h2 class="section-title">Curious by nature.<br><span class="text-gradient">Builder by practice.</span>
+                </h2>
+                <p class="section-intro">
+                    I'm an aspiring full-stack developer who enjoys building
+                    responsive user interfaces and developing the backend logic
+                    that powers web applications. I like turning ideas into
+                    practical applications using modern web technologies.
+                </p>
+                <p class="about-extra">
+                    My development interests include frontend development,
+                    Python-based backend services, REST API development,
+                    database integration, and authentication. Through projects,
+                    I focus on writing maintainable code, solving practical
+                    problems, and creating smooth user experiences.
+                </p>
+
+                <div class="about-highlights">
+                    <article class="highlight-card">
+                        <span class="highlight-icon" aria-hidden="true">⌘</span>
+                        <h3>Practical projects</h3>
+                        <p>I apply what I learn by building and improving working projects.</p>
+                    </article>
+                    <article class="highlight-card">
+                        <span class="highlight-icon" aria-hidden="true">↗</span>
+                        <h3>Continuous learning</h3>
+                        <p>I keep developing my technical skills through practice and iteration.</p>
+                    </article>
+                    <article class="highlight-card">
+                        <span class="highlight-icon" aria-hidden="true">◎</span>
+                        <h3>User-focused thinking</h3>
+                        <p>I aim for clear layouts, responsive pages, and simple user journeys.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section skills-section" id="skills">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="section-kicker">MY TOOLKIT</p>
+
+                    <h2 class="section-title">
+                        Technologies I use to build applications
+                    </h2>
+
+                    <p class="section-intro">
+                        My technical toolkit focuses on frontend development,
+                        backend programming, database integration, and
+                        building reliable web applications.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+
+                    <!-- Frontend Development -->
+                    <article class="skill-group">
+                        <span class="skill-group-number">01</span>
+
+                        <h3>Frontend Development</h3>
+
+                        <div class="skill-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                            <span>Bootstrap</span>
+                        </div>
+                    </article>
+
+                    <!-- Backend Development -->
+                    <article class="skill-group">
+                        <span class="skill-group-number">02</span>
+
+                        <h3>Backend Development</h3>
+
+                        <div class="skill-tags">
+                            <span>Python</span>
+                            <span>Flask</span>
+                            <span>React</span>
+                            <span>REST APIs</span>
+                            <span>Java</span>
+                        </div>
+                    </article>
+
+                    <!-- Databases -->
+                    <article class="skill-group">
+                        <span class="skill-group-number">03</span>
+
+                        <h3>Databases</h3>
+
+                        <div class="skill-tags">
+                            <span>MySQL</span>
+                            <span>SQL</span>
+                            <span>Database Design</span>
+                        </div>
+                    </article>
+
+                    <!-- Development Tools -->
+                    <article class="skill-group">
+                        <span class="skill-group-number">04</span>
+
+                        <h3>Developer Tools</h3>
+
+                        <div class="skill-tags">
+                            <span>Git</span>
+                            <span>GitHub</span>
+                            <span>VS Code</span>
+                            <span>REST API Testing</span>
+                        </div>
+                    </article>
+
+                </div>
+
+                <p class="skills-note">
+                    These technologies represent my development toolkit.
+                    My projects demonstrate how I apply them to build web applications.
+                </p>
+
+            </div>
+        </section>
+
+        <section class="section projects-section" id="projects">
+            <div class="container">
+                <div class="section-heading projects-heading">
+                    <div>
+                        <p class="section-kicker">SELECTED WORK</p>
+                        <h2 class="section-title">Projects that put learning into practice</h2>
+                    </div>
+                    <p class="section-intro">
+                        A selection of web development projects demonstrating my work
+                        with responsive interfaces, backend APIs, database integration,
+                        and practical application development.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card project-featured">
+
+                        <div class="project-visual visual-milk">
+                            <img src="images/mallela-milks-preview.png"
+                                alt="Mallela Milks dairy e-commerce website preview" class="project-image"
+                                loading="lazy">
+                        </div>
+                        <div class="project-body">
+                            <div class="project-meta"><span class="project-type">E-COMMERCE WEB PROJECT</span><span
+                                    class="project-number">01 / 03</span></div>
+                            <h3>Mallela Milks</h3>
+                            <p>A dairy e-commerce website concept for presenting products and supporting a customer
+                                shopping journey, from browsing products to cart and checkout.</p>
+                            <div class="project-tags">
+                                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Flask</span><span>MySQL</span>
+                            </div>
+                            <div class="project-actions">
+                                <a class="project-link" href="https://github.com/Manoj8247/mallela-milks-project.git"
+                                    target="_blank" rel="noopener noreferrer">
+                                    View on GitHub ↗
+                                </a>
+
+                                <a class="project-link" href="https://manoj8247.github.io/mallela-milks-project/"
+                                    target="_blank" rel="noopener noreferrer">
+                                    Live Demo ↗
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-visual visual-api" aria-label="Data ingestion API project illustration">
+                            <div class="code-window">
+                                <div class="code-window-top"><i></i><i></i><i></i><span>api.py</span></div>
+                                <div class="code-lines"><b>POST</b>
+                                    <span>/api/ingest</span><br><em>{</em><br>&nbsp;&nbsp;<span>"status"</span>:
+                                    <strong>"processed"</strong><br><em>}</em>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-meta"><span class="project-type">BACKEND / API</span><span
+                                    class="project-number">02 / 03</span></div>
+                            <h3>Generic Data Ingestion Service</h3>
+                            <p>A backend service project focused on receiving and processing data through REST API
+                                endpoints.</p>
+                            <div class="project-tags"><span>Python</span><span>FastAPI</span><span>REST API</span>
+                            </div>
+                            <div class="project-actions">
+                                <a class="project-link" href="https://github.com/Manoj8247/ingestion-service"
+                                    target="_blank" rel="noopener noreferrer">View on GitHub <span
+                                        aria-hidden="true">↗</span></a>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                    <article class="project-card">
+                        <div class="project-visual visual-fraud"
+                            aria-label="Click fraud detection project illustration">
+
+                            <div class="portfolio-mock">
+                                <span class="portfolio-mock-label">
+                                    DEEP LEARNING / AI
+                                </span>
+
+                                <strong>
+                                    Click Fraud<br>
+                                    Detection<span>.</span>
+                                </strong>
+
+                                <div class="portfolio-mock-button">
+                                    Fraud Analysis ↗
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="project-body">
+
+                            <div class="project-meta">
+                                <span class="project-type">
+                                    MACHINE LEARNING / DEEP LEARNING
+                                </span>
+
+                                <span class="project-number">03 / 03</span>
+                            </div>
+
+                            <h3>Deep Learning-Enhanced Click Fraud Detection System</h3>
+
+                            <p>
+                                A machine learning-based application designed to identify
+                                potentially fraudulent advertisement clicks using click-related
+                                data and predictive models.
+                            </p>
+
+                            <div class="project-tags">
+                                <span>Python</span>
+                                <span>Deep Learning</span>
+                                <span>Machine Learning</span>
+                                <span>Django</span>
+                            </div>
+
+                            <div class="project-actions">
+                                <!-- Add your actual GitHub repository URL here. -->
+                                <a class="project-link" href="YOUR_CLICK_FRAUD_GITHUB_URL" target="_blank"
+                                    rel="noopener noreferrer">
+                                    View on GitHub <span aria-hidden="true">↗</span>
+                                </a>
+                            </div>
+
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-section" id="contact">
+            <div class="container contact-grid">
+                <div class="contact-copy">
+                    <p class="section-kicker">GET IN TOUCH</p>
+                    <h2 class="section-title">Let's talk about<br><span class="text-gradient">what's next.</span></h2>
+                    <p class="section-intro">I'm interested in software development opportunities, learning from
+                        experienced teams, and building useful products.</p>
+                    <a class="contact-email" href="mailto:your.email@example.com">mallelamanojkumar825@gmail.com <span
+                            aria-hidden="true">↗</span></a>
+                    <p class="contact-note">Replace this placeholder with your professional email before publishing.</p>
+                </div>
+
+                <form class="contact-form" id="contact-form">
+                    <div class="form-heading"><span class="form-icon" aria-hidden="true">✉</span>
+                        <div>
+                            <h3>Send a message</h3>
+                            <p>Fields marked with * are required.</p>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="name">Your name <span>*</span></label>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name"
+                            required>
+                    </div>
+                    <div class="form-field">
+                        <label for="email">Email address <span>*</span></label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" autocomplete="email"
+                            required>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">Message <span>*</span></label>
+                        <textarea id="message" name="message" rows="5"
+                            placeholder="Tell me a little about your opportunity..." required></textarea>
+                    </div>
+                    <button class="button button-primary submit-button" type="submit">Prepare email <span
+                            aria-hidden="true">↗</span></button>
+                    <p class="form-note">This form opens your email app; it does not send or store messages on a server.
+                    </p>
+                    <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <a class="brand footer-brand" href="#home"><span class="brand-mark">M</span><span
+                    class="brand-name">Manoj<span class="brand-dot">.</span></span></a>
+            <p>Designed and built with care by Mallela Manoj Kumar.</p>
+            <a class="back-to-top" href="#home">Back to top ↑</a>
+        </div>
+    </footer>
 </body>
 
 </html>
